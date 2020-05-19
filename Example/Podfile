@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HBAESCrypt_Example' do
+  pod 'HBAESCrypt', :path => '../'
+
+  target 'HBAESCrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
