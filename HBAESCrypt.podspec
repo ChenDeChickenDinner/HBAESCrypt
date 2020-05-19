@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HBAESCrypt/Classes/**/*'
+  s.source_files = 'HBAESCrypt/**/*'
   
   # s.resource_bundles = {
   #   'HBAESCrypt' => ['HBAESCrypt/Assets/*.png']

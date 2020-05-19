@@ -1,0 +1,6 @@
+framework module HBAESCrypt {
+  umbrella header "HBAESCrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

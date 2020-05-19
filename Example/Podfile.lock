@@ -1,0 +1,16 @@
+PODS:
+  - HBAESCrypt (0.1.0)
+
+DEPENDENCIES:
+  - HBAESCrypt (from `../`)
+
+EXTERNAL SOURCES:
+  HBAESCrypt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBAESCrypt: b989a0b7f5ae4f7147421f0d5ffae01e825d0089
+
+PODFILE CHECKSUM: ce596a5ed3dca02c35451b8e2c6af71520ebf77c
+
+COCOAPODS: 1.9.1

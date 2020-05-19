@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FDFF63CB64BCD879EEE5DAF7137B52 /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 393679B540217729503230A5740D397C /* NSData+CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1388C80B4DAB562E75A591F5AA9E0DA6 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E39A98F5F5BEB3C231D5E66A55064AF /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204167AA8687AA0064B2B0A00815DB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		21970AB714A84D761A058E528968968E /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = D96B16DAFA95D26F5C945E146831DF62 /* NSData+CommonCrypto.m */; };
+		2A5737885656E976DD8ACF0389B262BE /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFA0460F0CB4D756BAC54B9CA14EFE6 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39409EAFE94459C5BF89172FD9954A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		705DB364D8AAA917B776DA226C82B466 /* HBAESCrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CAE7A9CB47AF3DCFE94C01A6503D3C /* HBAESCrypt-dummy.m */; };
+		9E73FA3BAB724E6727B11E85A9F7F786 /* Pods-HBAESCrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A062D8DCFB7B56077494B369BD75AFBF /* Pods-HBAESCrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A66A6885CA57BE0EB475888E89FF23DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF2109E987A31EA3F9A15BE07104509C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 232631FE695AB927EE9D138A74798C34 /* NSData+Base64.m */; };
+		C09B5754858BBC8FFA81AE922AA7529F /* HBAESCrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E51E9ADDF3D1D51ACEC98C86B09EDB4C /* HBAESCrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FE65A416A0C1F5A90480B705AAE256 /* Pods-HBAESCrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EEEC8F77E5BD4565B9225B25B136F8 /* Pods-HBAESCrypt_Example-dummy.m */; };
+		CF28F8A3C1DE20FCCD9F7BE87A07EB43 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6B525916FD6E4BAC3CC4835C964F94 /* NSString+Base64.m */; };
+		E5612A1923554C69F7FF2F5034D4DBBE /* Pods-HBAESCrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF3B077D2CF35C1188C96237DE6EB00 /* Pods-HBAESCrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32AAB0EB6D34F01DFAE4A4CDABB1321 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2391418DE9E4EA3F9378AFCCC598E94F /* AESCrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42F709405CC9D56993FF9649FC7F9CD /* Pods-HBAESCrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1F20D24D64F38062456D509BD09D6 /* Pods-HBAESCrypt_Tests-dummy.m */; };
+		FF2AD65D6DB93EDEA9B6C923C3B068D5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBDD6B0FA94F1840B860C747207131 /* AESCrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DCAC65482D600FA528A3BB2DE4C451B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406208FE56CEEF30C2F0EDB4CC3E8C23;
+			remoteInfo = HBAESCrypt;
+		};
+		89E455D55A8FFA02C5E6675156B185AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DF3FEBC9B3B14B37D71338025E15D2;
+			remoteInfo = "Pods-HBAESCrypt_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00323A0AE8F9A7ECC7D2DE98BB036B18 /* Pods-HBAESCrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBAESCrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		05A798CAA2DAE780CF98CF24E1DD071B /* Pods-HBAESCrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBAESCrypt_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A597EE1C712B9A6A03C3C4BAB58BD68 /* Pods-HBAESCrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBAESCrypt_Example-Info.plist"; sourceTree = "<group>"; };
+		0AF3B077D2CF35C1188C96237DE6EB00 /* Pods-HBAESCrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBAESCrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E51C0B15CAC32B05A752B25B80F3820 /* Pods-HBAESCrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBAESCrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F2008A021198C8585A78E96EC53C50A /* Pods-HBAESCrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBAESCrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		232631FE695AB927EE9D138A74798C34 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "HBAESCrypt/NSData+Base64.m"; sourceTree = "<group>"; };
+		2391418DE9E4EA3F9378AFCCC598E94F /* AESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = HBAESCrypt/AESCrypt.h; sourceTree = "<group>"; };
+		241ACE10DA96F8ECF8F2273AD3D8576E /* Pods-HBAESCrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBAESCrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		253A787C4FB458011E32825BF5AEC068 /* Pods_HBAESCrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBAESCrypt_Example.framework; path = "Pods-HBAESCrypt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2799AB3451B583A51EE61A0E974CAEF6 /* Pods-HBAESCrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBAESCrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		279C9B905F125BFBEF337E0C14E6D6B5 /* HBAESCrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBAESCrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		29CF8A6993D8052F875FD1677E211940 /* HBAESCrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBAESCrypt-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		393679B540217729503230A5740D397C /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CommonCrypto.h"; path = "HBAESCrypt/NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		4D2BC81D1FE5191F3A84A1BFD458A5E0 /* HBAESCrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBAESCrypt.release.xcconfig; sourceTree = "<group>"; };
+		4E39A98F5F5BEB3C231D5E66A55064AF /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "HBAESCrypt/NSData+Base64.h"; sourceTree = "<group>"; };
+		4F6B525916FD6E4BAC3CC4835C964F94 /* NSString+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "HBAESCrypt/NSString+Base64.m"; sourceTree = "<group>"; };
+		50EEEC8F77E5BD4565B9225B25B136F8 /* Pods-HBAESCrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBAESCrypt_Example-dummy.m"; sourceTree = "<group>"; };
+		65E3EABDB725D3A01F39552E1292B694 /* Pods-HBAESCrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBAESCrypt_Example.modulemap"; sourceTree = "<group>"; };
+		6880D703E0DF41F0AAB812E7AE647445 /* Pods-HBAESCrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBAESCrypt_Tests.modulemap"; sourceTree = "<group>"; };
+		6CFA0460F0CB4D756BAC54B9CA14EFE6 /* NSString+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "HBAESCrypt/NSString+Base64.h"; sourceTree = "<group>"; };
+		7403AF434A19D9F19769E7BF60184643 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E452A0230AB63FC414C2855FDAE7E8E /* Pods-HBAESCrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBAESCrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DCBDD6B0FA94F1840B860C747207131 /* AESCrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AESCrypt.m; path = HBAESCrypt/AESCrypt.m; sourceTree = "<group>"; };
+		94EB052B207D4A8D583E9A84ED3A4065 /* Pods-HBAESCrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBAESCrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A062D8DCFB7B56077494B369BD75AFBF /* Pods-HBAESCrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBAESCrypt_Example-umbrella.h"; sourceTree = "<group>"; };
+		A8E70F7F40FF57531C2C5A3CA1EFBF7F /* HBAESCrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBAESCrypt-prefix.pch"; sourceTree = "<group>"; };
+		ADBF8336994C8032C87B38142D699723 /* HBAESCrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBAESCrypt.debug.xcconfig; sourceTree = "<group>"; };
+		B372465F1F0C3F9FB34E8102AD1A32C9 /* Pods-HBAESCrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBAESCrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8113DFA4DE237CBA0FAFF2EC9052222 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7B1F20D24D64F38062456D509BD09D6 /* Pods-HBAESCrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBAESCrypt_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7EDA233B2BD6C1CEDD23B2BEACC4BFC /* Pods_HBAESCrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBAESCrypt_Tests.framework; path = "Pods-HBAESCrypt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CAE7A9CB47AF3DCFE94C01A6503D3C /* HBAESCrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBAESCrypt-dummy.m"; sourceTree = "<group>"; };
+		CDECB0ABFA0FB0D2FB2E856DD7814C01 /* HBAESCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBAESCrypt.framework; path = HBAESCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD789DD19D6BAA5FD81318D63920E57 /* HBAESCrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBAESCrypt.modulemap; sourceTree = "<group>"; };
+		D96B16DAFA95D26F5C945E146831DF62 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CommonCrypto.m"; path = "HBAESCrypt/NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		E51E9ADDF3D1D51ACEC98C86B09EDB4C /* HBAESCrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBAESCrypt-umbrella.h"; sourceTree = "<group>"; };
+		E814C69FFAF9A2DE57F2D33035AF0FB7 /* Pods-HBAESCrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBAESCrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13834CAD1B4B43C8ADA8EF5DB67C2245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39409EAFE94459C5BF89172FD9954A06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D5378E7ED491837D3F6D90B86A0228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204167AA8687AA0064B2B0A00815DB99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D5C4BE5ED1F782ACC4FCCF1B27C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A6885CA57BE0EB475888E89FF23DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B598B024B1FA5006B2B828D78774AD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C49EFCBBE057BF3FFB407CE4BA9405E /* Pods-HBAESCrypt_Example */,
+				9FA9E9D5147B88600A7491C3C45EA773 /* Pods-HBAESCrypt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39A35B16C6CE0BA8582E790CC392A8CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDECB0ABFA0FB0D2FB2E856DD7814C01 /* HBAESCrypt.framework */,
+				253A787C4FB458011E32825BF5AEC068 /* Pods_HBAESCrypt_Example.framework */,
+				C7EDA233B2BD6C1CEDD23B2BEACC4BFC /* Pods_HBAESCrypt_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624E0D1D69206B5CA81AA7B1F724D197 /* HBAESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				2391418DE9E4EA3F9378AFCCC598E94F /* AESCrypt.h */,
+				8DCBDD6B0FA94F1840B860C747207131 /* AESCrypt.m */,
+				4E39A98F5F5BEB3C231D5E66A55064AF /* NSData+Base64.h */,
+				232631FE695AB927EE9D138A74798C34 /* NSData+Base64.m */,
+				393679B540217729503230A5740D397C /* NSData+CommonCrypto.h */,
+				D96B16DAFA95D26F5C945E146831DF62 /* NSData+CommonCrypto.m */,
+				6CFA0460F0CB4D756BAC54B9CA14EFE6 /* NSString+Base64.h */,
+				4F6B525916FD6E4BAC3CC4835C964F94 /* NSString+Base64.m */,
+				C0605D8048BAE92BDE3D95AD4F1D5ECC /* Pod */,
+				D1879483F399D1B2E397FA0587AF9C60 /* Support Files */,
+			);
+			name = HBAESCrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C49EFCBBE057BF3FFB407CE4BA9405E /* Pods-HBAESCrypt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				65E3EABDB725D3A01F39552E1292B694 /* Pods-HBAESCrypt_Example.modulemap */,
+				94EB052B207D4A8D583E9A84ED3A4065 /* Pods-HBAESCrypt_Example-acknowledgements.markdown */,
+				00323A0AE8F9A7ECC7D2DE98BB036B18 /* Pods-HBAESCrypt_Example-acknowledgements.plist */,
+				50EEEC8F77E5BD4565B9225B25B136F8 /* Pods-HBAESCrypt_Example-dummy.m */,
+				2799AB3451B583A51EE61A0E974CAEF6 /* Pods-HBAESCrypt_Example-frameworks.sh */,
+				0A597EE1C712B9A6A03C3C4BAB58BD68 /* Pods-HBAESCrypt_Example-Info.plist */,
+				A062D8DCFB7B56077494B369BD75AFBF /* Pods-HBAESCrypt_Example-umbrella.h */,
+				0F2008A021198C8585A78E96EC53C50A /* Pods-HBAESCrypt_Example.debug.xcconfig */,
+				7E452A0230AB63FC414C2855FDAE7E8E /* Pods-HBAESCrypt_Example.release.xcconfig */,
+			);
+			name = "Pods-HBAESCrypt_Example";
+			path = "Target Support Files/Pods-HBAESCrypt_Example";
+			sourceTree = "<group>";
+		};
+		8152CF4E00F8E0E9878BC1B49CBFFAD5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				624E0D1D69206B5CA81AA7B1F724D197 /* HBAESCrypt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9FA9E9D5147B88600A7491C3C45EA773 /* Pods-HBAESCrypt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6880D703E0DF41F0AAB812E7AE647445 /* Pods-HBAESCrypt_Tests.modulemap */,
+				E814C69FFAF9A2DE57F2D33035AF0FB7 /* Pods-HBAESCrypt_Tests-acknowledgements.markdown */,
+				B372465F1F0C3F9FB34E8102AD1A32C9 /* Pods-HBAESCrypt_Tests-acknowledgements.plist */,
+				C7B1F20D24D64F38062456D509BD09D6 /* Pods-HBAESCrypt_Tests-dummy.m */,
+				05A798CAA2DAE780CF98CF24E1DD071B /* Pods-HBAESCrypt_Tests-Info.plist */,
+				0AF3B077D2CF35C1188C96237DE6EB00 /* Pods-HBAESCrypt_Tests-umbrella.h */,
+				241ACE10DA96F8ECF8F2273AD3D8576E /* Pods-HBAESCrypt_Tests.debug.xcconfig */,
+				0E51C0B15CAC32B05A752B25B80F3820 /* Pods-HBAESCrypt_Tests.release.xcconfig */,
+			);
+			name = "Pods-HBAESCrypt_Tests";
+			path = "Target Support Files/Pods-HBAESCrypt_Tests";
+			sourceTree = "<group>";
+		};
+		C0605D8048BAE92BDE3D95AD4F1D5ECC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				279C9B905F125BFBEF337E0C14E6D6B5 /* HBAESCrypt.podspec */,
+				7403AF434A19D9F19769E7BF60184643 /* LICENSE */,
+				B8113DFA4DE237CBA0FAFF2EC9052222 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8152CF4E00F8E0E9878BC1B49CBFFAD5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39A35B16C6CE0BA8582E790CC392A8CD /* Products */,
+				2B598B024B1FA5006B2B828D78774AD8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1879483F399D1B2E397FA0587AF9C60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD789DD19D6BAA5FD81318D63920E57 /* HBAESCrypt.modulemap */,
+				C9CAE7A9CB47AF3DCFE94C01A6503D3C /* HBAESCrypt-dummy.m */,
+				29CF8A6993D8052F875FD1677E211940 /* HBAESCrypt-Info.plist */,
+				A8E70F7F40FF57531C2C5A3CA1EFBF7F /* HBAESCrypt-prefix.pch */,
+				E51E9ADDF3D1D51ACEC98C86B09EDB4C /* HBAESCrypt-umbrella.h */,
+				ADBF8336994C8032C87B38142D699723 /* HBAESCrypt.debug.xcconfig */,
+				4D2BC81D1FE5191F3A84A1BFD458A5E0 /* HBAESCrypt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBAESCrypt";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49FE41ADEA9357DD9CFA095F2B30A02A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5612A1923554C69F7FF2F5034D4DBBE /* Pods-HBAESCrypt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4B6C8A7E94CDE4A4FBD0DC50121FEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E73FA3BAB724E6727B11E85A9F7F786 /* Pods-HBAESCrypt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14D7B77E29523CCB466484B979FF5F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32AAB0EB6D34F01DFAE4A4CDABB1321 /* AESCrypt.h in Headers */,
+				C09B5754858BBC8FFA81AE922AA7529F /* HBAESCrypt-umbrella.h in Headers */,
+				1388C80B4DAB562E75A591F5AA9E0DA6 /* NSData+Base64.h in Headers */,
+				08FDFF63CB64BCD879EEE5DAF7137B52 /* NSData+CommonCrypto.h in Headers */,
+				2A5737885656E976DD8ACF0389B262BE /* NSString+Base64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29DF3FEBC9B3B14B37D71338025E15D2 /* Pods-HBAESCrypt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E5C55230403BBE3AE3D101E44B0E0 /* Build configuration list for PBXNativeTarget "Pods-HBAESCrypt_Example" */;
+			buildPhases = (
+				8E4B6C8A7E94CDE4A4FBD0DC50121FEC /* Headers */,
+				5F1CEC5A6925D49C2D189D797D9337C5 /* Sources */,
+				13834CAD1B4B43C8ADA8EF5DB67C2245 /* Frameworks */,
+				50E0C94FAADA0331DD9061BC659B529C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7DEF75A416C7E05A0453AC34C82463 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBAESCrypt_Example";
+			productName = "Pods-HBAESCrypt_Example";
+			productReference = 253A787C4FB458011E32825BF5AEC068 /* Pods_HBAESCrypt_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		406208FE56CEEF30C2F0EDB4CC3E8C23 /* HBAESCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC1C098B2DB84DF8177F7A7FD98F9F5 /* Build configuration list for PBXNativeTarget "HBAESCrypt" */;
+			buildPhases = (
+				E14D7B77E29523CCB466484B979FF5F0 /* Headers */,
+				2E6F70B80326951E5BD2AB0A2CD6AD1D /* Sources */,
+				F0D5378E7ED491837D3F6D90B86A0228 /* Frameworks */,
+				353947B1C10421F8D3B0408A237C0602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBAESCrypt;
+			productName = HBAESCrypt;
+			productReference = CDECB0ABFA0FB0D2FB2E856DD7814C01 /* HBAESCrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC991EA445247353A55C47207F06477 /* Pods-HBAESCrypt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC9B1EBF0D1B38E0A50E16A26F89AB /* Build configuration list for PBXNativeTarget "Pods-HBAESCrypt_Tests" */;
+			buildPhases = (
+				49FE41ADEA9357DD9CFA095F2B30A02A /* Headers */,
+				EEF162D564381A1693E1541922AE7FC2 /* Sources */,
+				FC0D5C4BE5ED1F782ACC4FCCF1B27C13 /* Frameworks */,
+				33A57200659B3BD18CB9B82239FB09D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D83B22B95647AAC990AA24F069B6B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBAESCrypt_Tests";
+			productName = "Pods-HBAESCrypt_Tests";
+			productReference = C7EDA233B2BD6C1CEDD23B2BEACC4BFC /* Pods_HBAESCrypt_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 39A35B16C6CE0BA8582E790CC392A8CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406208FE56CEEF30C2F0EDB4CC3E8C23 /* HBAESCrypt */,
+				29DF3FEBC9B3B14B37D71338025E15D2 /* Pods-HBAESCrypt_Example */,
+				AAC991EA445247353A55C47207F06477 /* Pods-HBAESCrypt_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A57200659B3BD18CB9B82239FB09D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353947B1C10421F8D3B0408A237C0602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E0C94FAADA0331DD9061BC659B529C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6F70B80326951E5BD2AB0A2CD6AD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2AD65D6DB93EDEA9B6C923C3B068D5 /* AESCrypt.m in Sources */,
+				705DB364D8AAA917B776DA226C82B466 /* HBAESCrypt-dummy.m in Sources */,
+				BF2109E987A31EA3F9A15BE07104509C /* NSData+Base64.m in Sources */,
+				21970AB714A84D761A058E528968968E /* NSData+CommonCrypto.m in Sources */,
+				CF28F8A3C1DE20FCCD9F7BE87A07EB43 /* NSString+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1CEC5A6925D49C2D189D797D9337C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FE65A416A0C1F5A90480B705AAE256 /* Pods-HBAESCrypt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF162D564381A1693E1541922AE7FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F709405CC9D56993FF9649FC7F9CD /* Pods-HBAESCrypt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B7DEF75A416C7E05A0453AC34C82463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBAESCrypt;
+			target = 406208FE56CEEF30C2F0EDB4CC3E8C23 /* HBAESCrypt */;
+			targetProxy = 0DCAC65482D600FA528A3BB2DE4C451B /* PBXContainerItemProxy */;
+		};
+		F7D83B22B95647AAC990AA24F069B6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBAESCrypt_Example";
+			target = 29DF3FEBC9B3B14B37D71338025E15D2 /* Pods-HBAESCrypt_Example */;
+			targetProxy = 89E455D55A8FFA02C5E6675156B185AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092DBAB9EC8EA35A8F5A4274D2CF7914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBF8336994C8032C87B38142D699723 /* HBAESCrypt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBAESCrypt/HBAESCrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBAESCrypt/HBAESCrypt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBAESCrypt/HBAESCrypt.modulemap";
+				PRODUCT_MODULE_NAME = HBAESCrypt;
+				PRODUCT_NAME = HBAESCrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5C2445F906E9046A7C5806A2D887CED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E51C0B15CAC32B05A752B25B80F3820 /* Pods-HBAESCrypt_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBAESCrypt_Tests/Pods-HBAESCrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBAESCrypt_Tests/Pods-HBAESCrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6099057C670AFA6EB02262B80D2EE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241ACE10DA96F8ECF8F2273AD3D8576E /* Pods-HBAESCrypt_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBAESCrypt_Tests/Pods-HBAESCrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBAESCrypt_Tests/Pods-HBAESCrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9518F5BB891DB2CF88FAF3BB200F2357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2BC81D1FE5191F3A84A1BFD458A5E0 /* HBAESCrypt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBAESCrypt/HBAESCrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBAESCrypt/HBAESCrypt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBAESCrypt/HBAESCrypt.modulemap";
+				PRODUCT_MODULE_NAME = HBAESCrypt;
+				PRODUCT_NAME = HBAESCrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8415DCA629907EA425D502405646F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2008A021198C8585A78E96EC53C50A /* Pods-HBAESCrypt_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBAESCrypt_Example/Pods-HBAESCrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBAESCrypt_Example/Pods-HBAESCrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4D4D163C5776C17EB9581E7E2F7E705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E452A0230AB63FC414C2855FDAE7E8E /* Pods-HBAESCrypt_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBAESCrypt_Example/Pods-HBAESCrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBAESCrypt_Example/Pods-HBAESCrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC1C098B2DB84DF8177F7A7FD98F9F5 /* Build configuration list for PBXNativeTarget "HBAESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092DBAB9EC8EA35A8F5A4274D2CF7914 /* Debug */,
+				9518F5BB891DB2CF88FAF3BB200F2357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDC9B1EBF0D1B38E0A50E16A26F89AB /* Build configuration list for PBXNativeTarget "Pods-HBAESCrypt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6099057C670AFA6EB02262B80D2EE1E3 /* Debug */,
+				5C2445F906E9046A7C5806A2D887CED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E5C55230403BBE3AE3D101E44B0E0 /* Build configuration list for PBXNativeTarget "Pods-HBAESCrypt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8415DCA629907EA425D502405646F70 /* Debug */,
+				C4D4D163C5776C17EB9581E7E2F7E705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
